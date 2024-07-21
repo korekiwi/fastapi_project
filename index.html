@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .form {
+            margin: auto;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .form input {
+            display: block;
+            margin: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .task {
+            margin: 20px;
+        }
+
+        .task table {
+            border: 1px solid black;
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        .task td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .task tr :first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <form action="">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="button" value="Создать задачу">
+        </form>
+    </div>
+    <div class="gallery">
+        <h3>Список задач:</h3>
+        <!-- <div class="task">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td>name</td>
+                </tr>
+                <tr>
+                    <td>Description:</td>
+                    <td>description</td>
+                </tr>
+                <tr>
+                    <td>End date:</td>
+                    <td>end date</td>
+                </tr>
+            </table>
+        </div> -->
+    </div>
+
+</body>
+
+</html>
